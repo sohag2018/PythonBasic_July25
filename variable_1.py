@@ -11,7 +11,7 @@ print(name)#print() built-in method
 #funct
 def printInfo():
    # global phone #add global phone to make global
-    name="Rani" #local
+    global phone
     phone=349739447 #local
     print(name)
 print("----------------------")

@@ -10,16 +10,16 @@ class Student:
 
     @classmethod
     def printClass(cls,full_name):
-        nameparts=full_name.split()#spliting into array [Muhammad][Sohag]
+        nameparts=full_name.split()#spliting into array [Noyon][Sarker]
         if len(nameparts)==2:
             return cls(nameparts[0],nameparts[1])
         else:
             raise ValueError("You have entered wrong format")
 
 
-st2=Student(Student.printClass("Muhammad Sohag"))
+st2=Student.printClass("Noyon Sohag")
 st2.printInfo()
 
-# st1=Student("Muhammad","Sohag")
+# st1=Student("Noyon","Sarker")
 # st1.printInfo()
 
